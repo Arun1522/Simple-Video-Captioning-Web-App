@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+Simple Video Captioning Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview:
+The Simple Video Captioning Web App is a React-based application designed to allow users to add captions to hosted videos along with timestamps. The app provides an intuitive interface for users to input video URLs, captions, and corresponding timestamps, which are then synchronized with the video playback. This project aimed to create a straightforward solution for adding captions to videos without the additional complexity of frameworks like Next.js and Tailwind CSS.
 
-## Available Scripts
+Features:
 
-In the project directory, you can run:
+Video URL Input: Users can enter the URL of a hosted video. Please note that only hosted video URLs are supported. YouTube video URLs and similar platforms are not compatible due to the additional requirements, such as embedding via iframes.
+Caption Input: Users can enter captions for the video.
+Timestamp Input: Users can specify timestamps for when captions should be displayed.
+Video Playback: The app displays the video along with captions synchronized with the video playback.
+Play/Pause Control: Users can play or pause the video as needed.
+Running the Project:
+Clone Repository: If you have Git installed, clone the project repository from GitHub.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/example/project-repo.git
+Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+cd project-directory
+npm install
+or
 
-### `npm test`
+Copy code
+yarn install
+Run the Application: Once the dependencies are installed, start the development server to run the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+sql
+Copy code
+npm start
+or
 
-### `npm run build`
+sql
+Copy code
+yarn start
+Access the App: Open your web browser and navigate to http://localhost:3000 to access the Simple Video Captioning Web App.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Video Link:
+Video ka link: https://www.w3schools.com/html/mov_bbb.mp4
+Technical Notes:
+The project intentionally avoided the use of advanced frameworks like Next.js and Tailwind CSS to maintain simplicity and focus on core functionality.
+Custom CSS was used for responsive design to ensure compatibility across various screen sizes and devices.
+Hosted video URLs are preferred. URLs from platforms like YouTube may not work directly due to additional requirements such as embedding via iframes.
+Future Enhancements:
+Integration of Next.js for improved performance and SEO.
+Implementation of Tailwind CSS for streamlined styling and component consistency.
+Conclusion:
+The Simple Video Captioning Web App provides a user-friendly solution for adding captions to hosted videos with ease. By leveraging React.js and custom CSS, the project prioritizes simplicity and functionality, laying the foundation for potential future enhancements.

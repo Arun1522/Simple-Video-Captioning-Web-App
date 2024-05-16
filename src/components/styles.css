@@ -1,0 +1,20 @@
+.video-player {
+  margin-bottom: 20px;
+}
+
+.caption-form {
+  margin-bottom: 20px;
+}
+
+.caption-form input {
+  margin-right: 10px;
+}
+
+.caption-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.caption-list li {
+  margin-bottom: 5px;
+}
