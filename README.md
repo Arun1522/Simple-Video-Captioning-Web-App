@@ -13,13 +13,10 @@ Play/Pause Control: Users can play or pause the video as needed.
 Running the Project:
 Clone Repository: If you have Git installed, clone the project repository from GitHub.
 
-
 git clone https://github.com/example/project-repo.git
 Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn.
 
-bash
-Copy code
-cd project-directory
+cd caption-editor
 npm install
 or
 
@@ -27,24 +24,22 @@ Copy code
 yarn install
 Run the Application: Once the dependencies are installed, start the development server to run the application.
 
-sql
-Copy code
 npm start
 or
 
-sql
-Copy code
 yarn start
 Access the App: Open your web browser and navigate to http://localhost:3000 to access the Simple Video Captioning Web App.
 
-Video Link:
-Video ka link: https://www.w3schools.com/html/mov_bbb.mp4
+you can use this link for video play: https://www.w3schools.com/html/mov_bbb.mp4
+
 Technical Notes:
 The project intentionally avoided the use of advanced frameworks like Next.js and Tailwind CSS to maintain simplicity and focus on core functionality.
 Custom CSS was used for responsive design to ensure compatibility across various screen sizes and devices.
 Hosted video URLs are preferred. URLs from platforms like YouTube may not work directly due to additional requirements such as embedding via iframes.
+
 Future Enhancements:
 Integration of Next.js for improved performance and SEO.
 Implementation of Tailwind CSS for streamlined styling and component consistency.
+
 Conclusion:
 The Simple Video Captioning Web App provides a user-friendly solution for adding captions to hosted videos with ease. By leveraging React.js and custom CSS, the project prioritizes simplicity and functionality, laying the foundation for potential future enhancements.
