@@ -13,7 +13,7 @@ Play/Pause Control: Users can play or pause the video as needed.
 Running the Project:
 Clone Repository: If you have Git installed, clone the project repository from GitHub.
 
-git clone https://github.com/example/project-repo.git
+git clone https://github.com/Arun1522/Simple-Video-Captioning-Web-App
 Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn.
 
 cd caption-editor
